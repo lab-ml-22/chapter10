@@ -120,14 +120,14 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
   onFlip
 }) => {
   const handleCardClick = (e: React.MouseEvent) => {
-    e.stopPropagation();
+    e.stopPropagation(); // 카드 선택만 실행
     if (onSelect) {
       onSelect();
     }
   };
 
   const handleFlipClick = (e: React.MouseEvent) => {
-    e.stopPropagation();
+    e.stopPropagation(); // 카드 플립만 실행행
     if (onFlip) {
       onFlip();
     }
