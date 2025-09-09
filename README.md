@@ -34,7 +34,7 @@
   <h2>ISSUE</h2>
   <ul>
     <li>
-      <span>1). 2025-09-08(월)</span>
+      <span>2025-09-08(월)</span>
       <ol>
         <li>
           <span>typescript타입 충돌 이슈</span>
